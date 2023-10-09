@@ -9,7 +9,7 @@ import Error from "./pages/Error"
 import Home from "./pages/Home"
 import Contact from "./pages/Contact"
 import About from "./pages/About"
-import Blog from "./pages/Blog"
+import Portfolio from "./pages/Portfolio"
 import Footer from "./pages/Footer"
 
 // Define the accessible routes, and which components respond to which URL
@@ -27,10 +27,7 @@ const router = createBrowserRouter([
         path: "/About",
         element: <About />,
       },
-      {
-        path: "/Blog",
-        element: <Blog />,
-      },
+
       {
         path: "/Contact",
         element: <Contact />,
@@ -38,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/Footer",
         element: <Footer />,
+      },
+      {
+        path: "/Portfolio",
+        element: <Portfolio />,
       },
     ],
   },
