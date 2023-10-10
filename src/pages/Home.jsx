@@ -5,25 +5,22 @@ export default function Home() {
   return (
     <div>
       <section class="columns-2" style={{minHeight: "600px"}}>
-        <div style={{maxHeight: "450px"}}>
+        <div
+          class="h-screen flex flex-col items-center justify-center"
+          style={{maxHeight: "450px"}}
+        >
           <h1>Welcome</h1>
           <h2>I'm Skyler Keeling</h2>
           <h4>Full Stack Software Developer</h4>
-          <button
+          <a
             href="/Contact"
-            class="bg-purple-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            class="bg-purple-500 no-underline hover:bg-black-700 text-white font-bold py-2 px-4 rounded"
           >
             Contact me
-          </button>
+          </a>
         </div>
-
-        <div>
-          <img
-            src={homeLogo}
-            alt="home pic"
-            className="img-fluid"
-            style={{maxHeight: "450px"}}
-          />
+        <div class="h-screen flex items-center justify-center">
+          <img src={homeLogo} alt="home pic" style={{maxHeight: "450px"}} />
         </div>
       </section>
     </div>
