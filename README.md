@@ -58,6 +58,14 @@ To install this project into your own:
    <br>
 3. 'npm run dev'
 
-## Contribution
+## Contributers
 
 Skyler Keeling
+
+## License
+
+This project is covered under the [MIT License](./LICENSE). For more details, please click the license icon below under 'Badges'.
+
+## Badges
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
